@@ -69,7 +69,36 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+
+<script type="application/ld+json">
+    {`
+        {
+          "@context": "https://schema.org/",
+          "@type": "Website",
+          "name": "Cyberflix",
+          "url": "https://cyberflixofficial.com",
+          "author": {
+            "@type": "Person",
+            "name": "Elvis Dean"
+          },
+          "datePublished": "2021-03-15",
+          "description": "${metaDescription}"
+        }
+      `}
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-192341731-2"></script>
+<script>
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-192341731-2');
+  `}
+</script>
+
+</Helmet>
   )
 }
 
