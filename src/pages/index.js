@@ -1,29 +1,21 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import React from 'react'
+import Layout from '../c/Layout'
+import Seo from '../c/seo'
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-
-const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
-  </Layout>
-)
-
-export default IndexPage
+export default function Index() {
+	return (
+		<Layout>
+			<Seo title="" />
+			<article className="bg-green-400 py-12">
+				<div className="container mx-auto">
+					<h2>Cyberflix TV</h2>
+                    <button className="btn-alpha">Download Now</button>
+				</div>
+			</article>
+			<article className="py-12 container mx-auto">
+				<h2>Cyberflix Features</h2>
+				<p>Android App store. Below shown some of the features bundled with this app. You will experience more features when you use this app. Every day new games and apps get added to store and you will have access to those latest apps and games for free. Download this app store and stop relying on web for downloading mods and other apps. Because downloading all your Android apps using a app store is much more safer than downloading them using web. Because there is a high chance of downloading scam software. Best acmarket play store alternative.</p>
+			</article>
+		</Layout>
+	)
+}
