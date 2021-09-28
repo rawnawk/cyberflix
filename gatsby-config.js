@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Cyberflix`,
-    description: `Cyberflix`,
+    title: `Cyberflix TV`,
+    description: `Cyberflix TV Official lets you watch free TV Shows and Movies. Download Cyberflix TV APK for Android, iOS, Firestick or PC.`,
     author: `@rawnawk`,
     siteUrl: `https://cyberflixofficial.com/`,
   },
@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cyberflix`,
+        name: `Cyberflix TV`,
         short_name: `Cyberflix`,
         start_url: `/`,
         background_color: `#663399`,

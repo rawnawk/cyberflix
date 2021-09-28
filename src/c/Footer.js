@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div>
-            Footer
-        </div>
+        <footer className="py-12 text-white bg-gray-800 text-lg">
+            <div className="text-center font-bold">&copy; 2021 Cyberflix TV</div>
+        </footer>
     )
 }

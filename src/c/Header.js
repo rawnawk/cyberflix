@@ -10,7 +10,7 @@ export default function Header() {
             <nav className="md:hidden">
                 <div className="flex items-center justify-between px-4 py-5 border-b">
                     <div>
-                        <a href="/"><h1>Cyberflix</h1></a>
+                        <a href="/"><h2>Cyberflix TV</h2></a>
                     </div>
                     <button onClick={()=>setMobile(!mobile)}>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -32,7 +32,7 @@ export default function Header() {
             <nav className="hidden md:block">
                 <div className="flex items-center justify-between px-4 py-5 border-b">
                     <div>
-                        <a href="/"><h1>Cyberflix</h1></a>
+                        <a href="/"><h2>Cyberflix TV</h2></a>
                     </div>
                     <div className={`text-center space-x-6`}>
                         <Link to="/download/">Download</Link>
