@@ -24,7 +24,10 @@ export default function Header() {
                             <Link to="/download/">Download</Link>
                         </li>
                         <li>
-                            <Link to="/firestick/">Firestick</Link>
+                            <Link to="/cyberflix-for-pc/">Windows PC</Link>
+                        </li>
+                        <li>
+                            <Link to="/cyberflix-firestick/">Firestick</Link>
                         </li>
                     </ul>
                 </div>
@@ -36,7 +39,8 @@ export default function Header() {
                     </div>
                     <div className={`text-center space-x-6`}>
                         <Link to="/download/">Download</Link>
-                        <Link to="/firestick/">Firestick</Link>
+                        <Link to="/cyberflix-for-pc/">Windows PC</Link>
+                        <Link to="/cyberflix-firestick/">Firestick</Link>
                     </div>
                 </div>
             </nav>

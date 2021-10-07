@@ -12,8 +12,8 @@ export default function Index() {
 					<div className="flex flex-col md:flex-row gap-6 items-center">
 						<div className="flex flex-col">
 							<h1 className="mb-8">Cyberflix TV Official for Android (v3.3.3)</h1>
-							<p className="mb-8">Cyberflix TV is an Android app that streams online Tv shows and movies free of cost. This app has a massive collection of television shows and HD movies to select from for the convenience of users. With Cyberflix installed you can stream movies, anime, TV shows, and many more any time anywhere on the tip of your fingers and free of cost. The servers used by Cyberflix TV are high speed providing better quality streams. The developers boast about the app being secure and safe to use without any malware.</p>
-							<button className="btn-alpha place-self-center">Download Now</button>
+							<p className="mb-8">Cyberflix TV is an Android app that streams online TV shows and movies free of cost. This app has a massive collection of television shows and HD movies to select from for the convenience of users. With Cyberflix APK 2021 installed you can stream movies, anime, TV shows, and many more any time anywhere on the tip of your fingers and free of cost. The servers used by this app are high speed providing better quality streams. The developers boast about the app being secure and safe to use without any malware.</p>
+							<button id="download-btn" className="btn-alpha place-self-center">Download Now</button>
 						</div>
 						<StaticImage src="../assets/images/cyberflix-home.jpg" alt="Cyberflix TV" />
 					</div>
@@ -22,7 +22,7 @@ export default function Index() {
 			<article className="py-12 container mx-auto px-6">
 				<h2 className="text-center mb-8">Cyberflix TV Features</h2>
 				<p className="mb-4">TV Shows and Movies have always been an important entertainment source to every individual. Apart from cinema halls, now it is also easily possible to watch your favorite shows and movies on desktops and Android smartphones.</p>
-				<p className="mb-12">Cyberflix TV has some unique and great features to provide an excellent user experience. Some of the major features of the application are mentioned below:</p>
+				<p className="mb-12">Cyberflix Mod APK has some unique and great features to provide an excellent user experience. Some of the major features of the application are mentioned below:</p>
 				<div className="grid md:grid-cols-3 gap-8">
 					<div className="flex flex-col items-center">
 						<h3>Trending Video Content</h3>
@@ -57,7 +57,7 @@ export default function Index() {
 						<svg xmlns="http://www.w3.org/2000/svg" className="h-32 w-32 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
 </svg>
-						<p className="text-base">The user can search the content to watch on the application as per their taste, preference, and mood to watch.</p>
+						<p className="text-base">The user can search the content to watch in the Cyberflix 4K app as per their taste, preference, and mood to watch.</p>
 					</div>
 					<div className="flex flex-col items-center">
 						<h3>Request</h3>
@@ -75,7 +75,7 @@ export default function Index() {
 					<ul className="mb-4 list-decimal space-y-2 md:px-24 text-lg">
 						<li>Cyberflix is not available on Google Playstore and the APK file has to be downloaded from the trusted website.</li>
 						<li>Since this is a third-party download, it is vital to enable the unknown sources options in the settings menu.</li>
-						<li>To enable the unknown sources options, go to the settings menu of the device.</li>
+						<li>To enable the unknown sources options, go to the settings menu of the device.<StaticImage src="../assets/images/unknown.webp" alt="Enable Android apk installation"/></li>
 						<li>Browse through privacy and security under this menu.</li>
 						<li>Then select Unknown sources and click on it to turn it on.</li>
 						<li>Go back and download the latest version of the APK file of Cyberflix Tv from a trusted source or website.</li>
@@ -135,16 +135,30 @@ export default function Index() {
 			<article className="bg-green-600 py-12 text-white font-semibold">
 				<div className="py-12 container mx-auto px-6 text-center">
 					<h2 className="text-center mb-8">Screenshots</h2>
-					<p className="mb-6">This is how the Cyberflix app latest version 2021 looks on your smartphone.</p>
+					<p className="mb-6">This is how the Cyberflix TV App APK Download latest version 2021 looks on your smartphone.</p>
 					<div className="grid md:grid-cols-3 gap-8">
-						<StaticImage src="../assets/images/sc1.png" alt="Cyberflix tv menu" />
-						<StaticImage src="../assets/images/sc2.png" alt="Cyberflix tv home page" />
-						<StaticImage src="../assets/images/sc3.png" alt="Cyberflix tv movies and tv shows" />
+						<StaticImage src="../assets/images/sc1.png" alt="Cyberflix apk pure" />
+						<StaticImage src="../assets/images/sc2.png" alt="Cyberflix mod apk" />
+						<StaticImage src="../assets/images/sc3.png" alt="Cyberflix tv app apk download" />
 					</div>
 				</div>
 			</article>
 			<article className="py-12 container mx-auto px-6 flex flex-col">
 				<h2 className="text-center mb-8">Frequently Asked Questions</h2>
+				<section className="space-y-4">
+					<h3>How do I download Cyberflix on my phone?</h3>
+					<p>You can follow the steps given on this page one by one. Finally you'll get this app installed on your phone. You can install it on Android mobile and watch movies online for free.</p>
+					<h3>Is Cyberflix safe?</h3>
+					<p>The developers of this app - Cybercloud media claim that the application is safe and secure for use on any device. It does not have any malware and in case of any bugs and viruses, the developers rectify the same immediately. However, it is recommended to use VPN services when using the application to be more secure.</p>
+					<h3>How do I update Cyberflix 2021?</h3>
+					<p>You can download the latest version mod apk 2021 from this link, <a href="#download-btn">download now</a>. It is free and updated regularly.</p>
+					<h3>Is Cyberflix illegal in the USA?</h3>
+					<p>This app is safe to install on your Android smartphone but some of the content it provides violates Copyright laws, so we can say it in a gray area, not fully legal but not fully illegal too.</p>
+					<h3>Is Cyberflix TV free?</h3>
+					<p>Yes, this app is completely free for everyone, it does not even have commercials or advertisements. The unique feature of the app has made it advertisement-free and improved the user experience tremendously.</p>
+					<h3>Cyberflix Alternatives</h3>
+					<p>Cyberflix Tv is used to watch and stream Tv shows and movies in HD format. Several other apps provide such services in the market. This includes Tea Tv, Morpheus Tv, TVZion, Titanium Tv, and many more.</p>
+				</section>
 			</article>
 		</Layout>
 	)
