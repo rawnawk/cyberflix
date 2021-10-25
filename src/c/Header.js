@@ -21,9 +21,6 @@ export default function Header() {
                 <div className={`text-center mobile-nav ${mobile?'block':'hidden'}`}>
                     <ul>
                         <li>
-                            <Link to="/download/">Download</Link>
-                        </li>
-                        <li>
                             <Link to="/cyberflix-for-pc/">Windows PC</Link>
                         </li>
                         <li>
@@ -38,7 +35,6 @@ export default function Header() {
                         <a href="/"><h2>Cyberflix TV</h2></a>
                     </div>
                     <div className={`text-center space-x-6`}>
-                        <Link to="/download/">Download</Link>
                         <Link to="/cyberflix-for-pc/">Windows PC</Link>
                         <Link to="/cyberflix-firestick/">Firestick</Link>
                     </div>

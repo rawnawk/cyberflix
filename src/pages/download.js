@@ -10,7 +10,7 @@ export default function Download() {
                 description="Download latest version of Cyberflix TV MOD APK 2021 for watching free movies and TV shows on your Android smartphone." 
             />
             <article className="container mx-auto my-12 space-y-8">
-                <h1>Download Cyberflix TV for Android (v3.3.3)</h1>
+                <h1>About Cyberflix TV for Android (v3.3.3)</h1>
                 <p>Cyberflix is a free application to stream videos, movies, TV shows, events, and many more in HD quality. It is an ultimate entertainment platform, to watch, download and use the content offline even when you don’t have access to the internet and free of cost without any hidden charges.</p>
                 <table className="container mx-auto max-w-2xl">
                     <tbody>

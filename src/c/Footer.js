@@ -20,6 +20,7 @@ export default function Footer() {
                 </section>
                 <section className="flex items-center gap-6 justify-center">
                     <div className="text-center font-bold">&copy; 2021 Cyberflix TV</div>
+                    <Link className="hover:text-gray-300" to="/download/">About</Link>
                     <Link className="hover:text-gray-300" to="/contact/">Contact</Link>
                     <Link className="hover:text-gray-300" to="/privacy-policy/">Privacy Policy</Link>
                 </section>
